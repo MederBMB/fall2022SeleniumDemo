@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public abstract class BaseTest {
 
-    WebDriver driver;
+    static WebDriver driver;
     BrowserHelper browserHelper;
     AlertHelper alertHelper;
 
